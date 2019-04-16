@@ -149,7 +149,7 @@ class ObjectModel {
         if ($id) {
             $this->load($id, $this, $this->def);
         }
-	}
+    }
 
     /**
      * Prepare fields for ObjectModel class (add, update)
